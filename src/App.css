@@ -1,5 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -36,3 +46,38 @@
     transform: rotate(360deg);
   }
 }
+
+.ContenedorGato {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  margin-top: 50px;
+  flex: 1;
+}
+
+.cont-jugadores {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  background-color: #61dafb;
+  flex:1;
+}
+
+.cont-datos {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  background-color: coral;
+  justify-content: center;
+  align-items: center;
+}
+
+  input {
+    width: 50%;
+    margin-left: 30px;
+  }
+

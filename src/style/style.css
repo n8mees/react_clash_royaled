@@ -1,0 +1,61 @@
+.aa {
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.columns {
+    display: flex;
+    flex-flow: row;
+    height: 50px;
+}
+
+.busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 11px;
+    height: 120px; /* Ajuste dinámico del alto */
+    width: 180px; /* Fijar un ancho consistente */
+    flex-direction: column;
+    text-align: center; /* Centrar los textos */
+    overflow: hidden; /* Evitar que textos largos excedan el contenedor */
+    white-space: nowrap; /* Evitar que textos largos se desborden */
+    text-overflow: ellipsis; /* Añadir "..." para textos largos */
+}
+
+img {
+    width: 70px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+}
+
+
+.title{
+    margin-bottom: 10px;
+    color: white;
+}
+
+p {
+    margin: 0; /* Eliminar márgenes innecesarios */
+    font-size:large; /* Asegurar tamaño uniforme */
+    line-height: 1.2; /* Ajustar espacio entre líneas */
+    color: #333; /* Color consistente */
+}
+
+/* Archivo CSS */
+.body {
+    background-image: url('../img/clash-royale-wallpapers-fireplace.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra toda el área */
+    background-position: center; /* Centra la imagen */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 100%;
+}
+
