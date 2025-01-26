@@ -78,7 +78,7 @@ function App() {
         />
         <h6 style={{ color: "#555", marginTop: "20px" }}> Para volver a jugar, recarga la página</h6>
         <p style={{ fontSize: "12px", color: "#555", marginTop: "20px" }}>
-        Juego creado por: <a href="https://wa.me/56989572805" style={{color: "rgb(78, 143, 185)"}} target= "_blank">Peladio Carrión</a>
+        Juego creado por: <a href="https://wa.me/56989572805" style={{color: "rgb(78, 143, 185)"}} target= "_blank" rel="noreferrer">Peladio Carrión</a>
         </p>
       </div>
     );
