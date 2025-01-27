@@ -14,7 +14,6 @@ function App() {
   function CartaRandom() {
     setcartaElegida(cartas[azar]);
   }
-  console.log("ocuapar variables de entorno y wea");
   useEffect(() => {
     // Llamar a la API para obtener las cartas
     axios
