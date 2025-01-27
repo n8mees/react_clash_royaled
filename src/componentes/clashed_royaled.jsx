@@ -10,7 +10,7 @@ function App() {
   const [seleccionada, setSeleccionada] = useState([]);
   const [win, setWin] = useState(false);
   const [xd, setXd] = useState(false);
-
+  console.log("jjhbgj");
   function CartaRandom() {
     setcartaElegida(cartas[azar]);
   }
@@ -75,9 +75,20 @@ function App() {
           alt="Gracias por jugar"
           style={{ width: "180px", height: "180px", marginTop: "12px" }}
         />
-        <h6 style={{ color: "#555", marginTop: "20px" }}> Para volver a jugar, recarga la página</h6>
+        <h6 style={{ color: "#555", marginTop: "20px" }}>
+          {" "}
+          Para volver a jugar, recarga la página
+        </h6>
         <p style={{ fontSize: "12px", color: "#555", marginTop: "20px" }}>
-        Juego creado por: <a href="https://wa.me/56989572805" style={{color: "rgb(78, 143, 185)"}} target= "_blank" rel="noreferrer">Peladio Carrión</a>
+          Juego creado por:{" "}
+          <a
+            href="https://wa.me/56989572805"
+            style={{ color: "rgb(78, 143, 185)" }}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Peladio Carrión
+          </a>
         </p>
       </div>
     );
@@ -91,7 +102,7 @@ function App() {
 
   function compararCartas(carta1, carta2) {
     const propiedadesNumericas = ["elixir", "arena", "año_lanzamiento"];
-    const propiedades = ["nombre", "tipo", "rareza",];
+    const propiedades = ["nombre", "tipo", "rareza"];
     const resultadoComparacion = {};
 
     propiedades.forEach((prop) => {
@@ -103,10 +114,7 @@ function App() {
       } else {
         resultadoComparacion[prop] = {
           correcto: false,
-          sugerencia:
-            carta1[prop] > carta2[prop]
-              ? "↓↓"
-              : "↑↑",
+          sugerencia: carta1[prop] > carta2[prop] ? "↓↓" : "↑↑",
         };
       }
     });
@@ -127,19 +135,24 @@ function App() {
     >
       {cartaElegida ? (
         !win && (
-        <div>
-          <h1 className="text-xl my-5">Filtro de Cartas</h1>
-          <input
-            type="text"
-            placeholder="Busca una carta"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="h-16 border-2 border-black w-80 rounded-3xl text-center"
-          />
-        </div>
+          <div>
+            <h1 className="text-xl my-5">Filtro de Cartas</h1>
+            <input
+              type="text"
+              placeholder="Busca una carta"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="h-16 border-2 border-black w-80 rounded-3xl text-center"
+            />
+          </div>
         )
       ) : (
-        <button onClick={() => CartaRandom()} style={{width: "120px", marginTop: "10px"}}>Adivinar carta</button>
+        <button
+          onClick={() => CartaRandom()}
+          style={{ width: "120px", marginTop: "10px" }}
+        >
+          Adivinar carta
+        </button>
       )}
 
       {!win && search && (
@@ -165,72 +178,82 @@ function App() {
         </ul>
       )}
 
-      {seleccionada.length > 0 ? (
-        seleccionada
-          .slice()
-          .reverse()
-          .map((card) => {
-            // Comparar propiedades con la carta elegida
-            const resultado = compararCartas(card, cartaElegida);
-            return (
-              <div
-                className="mb-10 mt-10"
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexWrap: "wrap", // Permitir que se ajusten si el espacio es limitado
-                }}
-              >
+      {seleccionada.length > 0
+        ? seleccionada
+            .slice()
+            .reverse()
+            .map((card) => {
+              // Comparar propiedades con la carta elegida
+              const resultado = compararCartas(card, cartaElegida);
+              return (
                 <div
-                  className="busqueda"
+                  className="mb-10 mt-10"
                   style={{
-                    backgroundColor: resultado.nombre ? "green" : "red",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexWrap: "wrap", // Permitir que se ajusten si el espacio es limitado
                   }}
                 >
-                  <p className=" text-white text-xl font-bold">{card.nombre}</p>
-                  <img className="img" src={card.imagen} alt={card.nombre} />
+                  <div
+                    className="busqueda"
+                    style={{
+                      backgroundColor: resultado.nombre ? "green" : "red",
+                    }}
+                  >
+                    <p className=" text-white text-xl font-bold">
+                      {card.nombre}
+                    </p>
+                    <img className="img" src={card.imagen} alt={card.nombre} />
+                  </div>
+
+                  <div
+                    className="busqueda"
+                    style={{
+                      backgroundColor: resultado.rareza ? "green" : "red",
+                    }}
+                  >
+                    <p className="mb-3 text-white text-xl font-bold">Calidad</p>
+                    <p className="text-white text-xl font-bold">
+                      {card.rareza}
+                    </p>
+                  </div>
+                  <div
+                    className="busqueda"
+                    style={{
+                      backgroundColor: resultado.tipo ? "green" : "red",
+                    }}
+                  >
+                    <p className="mb-3 text-white text-xl font-bold">Tipo</p>
+                    <p className="text-white text-xl font-bold">{card.tipo}</p>
+                  </div>
+                  {["elixir", "arena", "año_lanzamiento"].map((prop) => (
+                    <div
+                      className="busqueda"
+                      style={{
+                        backgroundColor: resultado[prop]?.correcto
+                          ? "green"
+                          : "red",
+                      }}
+                    >
+                      <p className="mb-3 text-white text-xl font-bold">
+                        {prop[0].toUpperCase() + prop.slice(1)}
+                      </p>
+                      <p className="text-white text-xl font-bold">
+                        {card[prop]}
+                      </p>
+                      {!resultado[prop]?.correcto && (
+                        <p className="text-white text-sm">
+                          {resultado[prop]?.sugerencia}
+                        </p>
+                      )}
+                    </div>
+                  ))}
                 </div>
-                
-                <div
-                  className="busqueda"
-                  style={{
-                    backgroundColor: resultado.rareza ? "green" : "red",
-                  }}
-                >
-                  <p className="mb-3 text-white text-xl font-bold">Calidad</p>
-                  <p className="text-white text-xl font-bold">{card.rareza}</p>
-                </div>
-                <div
-                  className="busqueda"
-                  style={{ backgroundColor: resultado.tipo ? "green" : "red" }}
-                >
-                  <p className="mb-3 text-white text-xl font-bold">Tipo</p>
-                  <p className="text-white text-xl font-bold">{card.tipo}</p>
-                </div>
-                {["elixir", "arena", "año_lanzamiento"].map((prop) => (
-                <div
-                  className="busqueda"
-                  style={{
-                    backgroundColor: resultado[prop]?.correcto ? "green" : "red",
-                  }}
-                >
-                  <p className="mb-3 text-white text-xl font-bold">
-                    {prop[0].toUpperCase() + prop.slice(1)}
-                  </p>
-                  <p className="text-white text-xl font-bold">{card[prop]}</p>
-                  {!resultado[prop]?.correcto && (
-                    <p className="text-white text-sm">{resultado[prop]?.sugerencia}</p>
-                  )}
-                </div>
-              ))}
-              </div>
-            );
-          })
-      ) : (
-        !win && <p className="text-xl my-5">No hay cartas seleccionadas</p>
-      )}
-      {win && ( 
+              );
+            })
+        : !win && <p className="text-xl my-5">No hay cartas seleccionadas</p>}
+      {win && (
         <div className="mb-20">
           <p>‎</p>
           <p style={{ fontSize: "28px" }}> Felicidades, has ganado </p>
@@ -245,9 +268,11 @@ function App() {
                 }}
               >
                 <div className="busqueda" style={{ backgroundColor: "green" }}>
-                  <p className="title" style={{ marginBottom: "0px" }}>{cartaElegida.nombre}</p>
+                  <p className="title" style={{ marginBottom: "0px" }}>
+                    {cartaElegida.nombre}
+                  </p>
                   <img
-                  style={{ marginBottom: "3px" }}
+                    style={{ marginBottom: "3px" }}
                     className="img"
                     src={cartaElegida.imagen}
                     alt={cartaElegida.nombre}
