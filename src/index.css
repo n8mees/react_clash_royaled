@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-button {
+/* button {
   cursor: pointer;
   border: 2px solid #444444;
   border-radius: 6px;
@@ -24,4 +24,4 @@ button {
   width: 50px;
   height: 30px;
   margin-top: "";
-}
+} */

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import { fetchCartas } from "./api";
 import "../style/style.css";
 
 function App() {
@@ -10,21 +10,13 @@ function App() {
   const [seleccionada, setSeleccionada] = useState([]);
   const [win, setWin] = useState(false);
   const [xd, setXd] = useState(false);
-  console.log("jjhbgj");
   function CartaRandom() {
     setcartaElegida(cartas[azar]);
   }
   useEffect(() => {
     // Llamar a la API para obtener las cartas
-    axios
-      .get("https://render-clash-royaled.onrender.com/Carta") // Cambia esta URL por tu endpoint
-      .then((response) => {
-        setCartas(response.data);
-        // Asume que 'Cartas' está en la respuesta
-      })
-      .catch((error) => {
-        console.error("Error al obtener las cartas:", error);
-      });
+    fetchCartas().then(setCartas);
+    
   }, []);
 
   const filteredCards = cartas.filter((card) =>

@@ -1,0 +1,1083 @@
+[
+	{
+		"nombre": "Espiritu Electrico",
+		"elixir": 1,
+		"rareza": "Común",
+		"arena": 4,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2020,
+		"imagen": "https://www.deckshop.pro/img/c/ElectroSpirit.png",
+		"pista": "⚡"
+	},
+	{
+		"nombre": "Duendes con lanza",
+		"elixir": 2,
+		"rareza": "Común",
+		"arena": 1,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/SpearGobs.png",
+		"pista": "🧌"
+	},
+	{
+		"nombre": "Barril de barbaros",
+		"elixir": 2,
+		"rareza": "Épica",
+		"arena": 9,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/BarbBarrel.png"
+	},
+	{
+		"nombre": "Esbirros",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 0,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Minions.png"
+	},
+	{
+		"nombre": "Pandilla de duendes",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 9,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/GobGang.png"
+	},
+	{
+		"nombre": "Barril de esqueletos",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 9,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/SkellyBarrel.png"
+	},
+	{
+		"nombre": "Golem de elixir",
+		"elixir": 3,
+		"rareza": "Especial",
+		"arena": 14,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2019,
+		"imagen": "https://www.deckshop.pro/img/c/ElixirGolem.png"
+	},
+	{
+		"nombre": "Ejercito de esqueletos",
+		"elixir": 3,
+		"rareza": "Épica",
+		"arena": 6,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Skarmy.png"
+	},
+	{
+		"nombre": "Clonación",
+		"elixir": 3,
+		"rareza": "Épica",
+		"arena": 15,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Clone.png"
+	},
+	{
+		"nombre": "Pescador",
+		"elixir": 3,
+		"rareza": "Legendaria",
+		"arena": 15,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2019,
+		"imagen": "https://www.deckshop.pro/img/c/Fisherman.png"
+	},
+	{
+		"nombre": "Torre bombardera",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 4,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/BombTower.png"
+	},
+	{
+		"nombre": "Electrocutadores",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 10,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/Zappies.png"
+	},
+	{
+		"nombre": "Hielo",
+		"elixir": 4,
+		"rareza": "Épica",
+		"arena": 8,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Freeze.png"
+	},
+	{
+		"nombre": "Cazador",
+		"elixir": 4,
+		"rareza": "Épica",
+		"arena": 10,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/Hunter.png"
+	},
+	{
+		"nombre": "Dragon infernal",
+		"elixir": 4,
+		"rareza": "Legendaria",
+		"arena": 11,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/InfernoD.png"
+	},
+	{
+		"nombre": "Fenix",
+		"elixir": 4,
+		"rareza": "Legendaria",
+		"arena": 12,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2022,
+		"imagen": "https://www.deckshop.pro/img/c/Phoenix.png"
+	},
+	{
+		"nombre": "Caballero Dorado",
+		"elixir": 4,
+		"rareza": "Campeón",
+		"arena": 16,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2021,
+		"imagen": "https://www.deckshop.pro/img/c/GoldenKnight.png"
+	},
+	{
+		"nombre": "Horda de esbirros",
+		"elixir": 5,
+		"rareza": "Común",
+		"arena": 10,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Horde.png"
+	},
+	{
+		"nombre": "Pillos",
+		"elixir": 5,
+		"rareza": "Común",
+		"arena": 13,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/Rascals.png"
+	},
+	{
+		"nombre": "Bruja",
+		"elixir": 5,
+		"rareza": "Épica",
+		"arena": 6,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Witch.png"
+	},
+	{
+		"nombre": "Globo bombastico",
+		"elixir": 5,
+		"rareza": "Épica",
+		"arena": 7,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Balloon.png"
+	},
+	{
+		"nombre": "Principe",
+		"elixir": 5,
+		"rareza": "Épica",
+		"arena": 7,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Prince.png"
+	},
+	{
+		"nombre": "Dragon electrico",
+		"elixir": 5,
+		"rareza": "Épica",
+		"arena": 12,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/eDragon.png"
+	},
+	{
+		"nombre": "Maquina duende",
+		"elixir": 5,
+		"rareza": "Legendaria",
+		"arena": 15,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2024,
+		"imagen": "https://www.deckshop.pro/img/c/GoblinMachine.png"
+	},
+	{
+		"nombre": "Reina Arquera",
+		"elixir": 5,
+		"rareza": "Campeón",
+		"arena": 17,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2021,
+		"imagen": "https://www.deckshop.pro/img/c/ArcherQueen.png"
+	},
+	{
+		"nombre": "Gigante Duende",
+		"elixir": 6,
+		"rareza": "Épica",
+		"arena": 9,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/GobGiant.png"
+	},
+	{
+		"nombre": "Ballesta",
+		"elixir": 6,
+		"rareza": "Épica",
+		"arena": 10,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/XBow.png"
+	},
+	{
+		"nombre": "Chispitas",
+		"elixir": 6,
+		"rareza": "Legendaria",
+		"arena": 11,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Sparky.png"
+	},
+	{
+		"nombre": "PEKKA",
+		"elixir": 7,
+		"rareza": "Épica",
+		"arena": 6,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/PEKKA.png"
+	},
+	{
+		"nombre": "Trio de mosqueteras",
+		"elixir": 9,
+		"rareza": "Especial",
+		"arena": 7,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/3M.png"
+	},
+	{
+		"nombre": "Espiritu de Fuego",
+		"elixir": 1,
+		"rareza": "Común",
+		"arena": 4,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/FireSpirit.png",
+		"pista": "🔥"
+	},
+	{
+		"nombre": "Espiritu de Hielo",
+		"elixir": 1,
+		"rareza": "Común",
+		"arena": 8,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/IceSpirit.png",
+		"pista": "❄"
+	},
+	{
+		"nombre": "Espiritu sanador",
+		"elixir": 1,
+		"rareza": "Especial",
+		"arena": 13,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2020,
+		"imagen": "https://www.deckshop.pro/img/c/HealSpirit.png",
+		"pista": "👨‍⚕️"
+	},
+	{
+		"nombre": "Bombardero",
+		"elixir": 2,
+		"rareza": "Común",
+		"arena": 2,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Bomber.png",
+		"pista": "💣"
+	},
+	{
+		"nombre": "Bola de nieve",
+		"elixir": 2,
+		"rareza": "Común",
+		"arena": 8,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/Snowball.png",
+		"pista": "❄"
+	},
+	{
+		"nombre": "MegaEsbirro",
+		"elixir": 3,
+		"rareza": "Especial",
+		"arena": 3,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/MM.png"
+	},
+	{
+		"nombre": "Minero",
+		"elixir": 3,
+		"rareza": "Legendaria",
+		"arena": 11,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Miner.png"
+	},
+	{
+		"nombre": "Mago de hielo",
+		"elixir": 3,
+		"rareza": "Legendaria",
+		"arena": 12,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/IceWiz.png"
+	},
+	{
+		"nombre": "Dragones esqueleto",
+		"elixir": 4,
+		"rareza": "Común",
+		"arena": 4,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2020,
+		"imagen": "https://www.deckshop.pro/img/c/SkeletonDragons.png"
+	},
+	{
+		"nombre": "Valquiria",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 2,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Valk.png"
+	},
+	{
+		"nombre": "Maquina voladora",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 5,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/FlyingMachine.png"
+	},
+	{
+		"nombre": "Curandera",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 8,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2019,
+		"imagen": "https://www.deckshop.pro/img/c/BattleHealer.png"
+	},
+	{
+		"nombre": "Caballero Oscuro",
+		"elixir": 4,
+		"rareza": "Épica",
+		"arena": 7,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/DarkPrince.png"
+	},
+	{
+		"nombre": "Esqueletos",
+		"elixir": 1,
+		"rareza": "Común",
+		"arena": 2,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Skellies.png"
+	},
+	{
+		"nombre": "Arquero Magico",
+		"elixir": 4,
+		"rareza": "Legendaria",
+		"arena": 13,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/MagicArcher.png"
+	},
+	{
+		"nombre": "Leñador",
+		"elixir": 4,
+		"rareza": "Legendaria",
+		"arena": 14,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Lumber.png"
+	},
+	{
+		"nombre": "Bruja nocturna",
+		"elixir": 4,
+		"rareza": "Legendaria",
+		"arena": 14,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/NightWitch.png"
+	},
+	{
+		"nombre": "Rey Esqueleto",
+		"elixir": 4,
+		"rareza": "Campeón",
+		"arena": 16,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2021,
+		"imagen": "https://www.deckshop.pro/img/c/SkeletonKing.png"
+	},
+	{
+		"nombre": "Barbaros",
+		"elixir": 5,
+		"rareza": "Común",
+		"arena": 3,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Barbs.png"
+	},
+	{
+		"nombre": "Gigante",
+		"elixir": 5,
+		"rareza": "Especial",
+		"arena": 0,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Giant.png"
+	},
+	{
+		"nombre": "Torre Infernal",
+		"elixir": 5,
+		"rareza": "Especial",
+		"arena": 4,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Inferno.png"
+	},
+	{
+		"nombre": "Cohete",
+		"elixir": 6,
+		"rareza": "Especial",
+		"arena": 5,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Rocket.png"
+	},
+	{
+		"nombre": "Recolector de elixir",
+		"elixir": 6,
+		"rareza": "Especial",
+		"arena": 15,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Pump.png"
+	},
+	{
+		"nombre": "Esqueleto Gigante",
+		"elixir": 6,
+		"rareza": "Épica",
+		"arena": 8,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/GiantSkelly.png"
+	},
+	{
+		"nombre": "Reclutas Reales",
+		"elixir": 7,
+		"rareza": "Común",
+		"arena": 7,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/RoyalRecruits.png"
+	},
+	{
+		"nombre": "Sabuezo de lava",
+		"elixir": 7,
+		"rareza": "Legendaria",
+		"arena": 13,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Lava.png"
+	},
+	{
+		"nombre": "Golem",
+		"elixir": 8,
+		"rareza": "Épica",
+		"arena": 10,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Golem.png"
+	},
+	{
+		"nombre": "Espejo",
+		"elixir": 0,
+		"rareza": "Épica",
+		"arena": 15,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/card_ed/Mirror.png"
+	},
+	{
+		"nombre": "Murcielagos",
+		"elixir": 2,
+		"rareza": "Común",
+		"arena": 5,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/Bats.png",
+		"pista": "🦇"
+	},
+	{
+		"nombre": "Descarga",
+		"elixir": 2,
+		"rareza": "Común",
+		"arena": 5,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Zap.png",
+		"pista": "⚡"
+	},
+	{
+		"nombre": "Rompemuros",
+		"elixir": 2,
+		"rareza": "Épica",
+		"arena": 12,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2019,
+		"imagen": "https://www.deckshop.pro/img/c/WallBreakers.png"
+	},
+	{
+		"nombre": "Arqueras",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 0,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Archers.png"
+	},
+	{
+		"nombre": "Flechas",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 0,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Arrows.png"
+	},
+	{
+		"nombre": "Caballero",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 0,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Knight.png"
+	},
+	{
+		"nombre": "Cañon",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 3,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Cannon.png"
+	},
+	{
+		"nombre": "Lanzafuegos",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 12,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2020,
+		"imagen": "https://www.deckshop.pro/img/c/Firecracker.png"
+	},
+	{
+		"nombre": "Lapida",
+		"elixir": 3,
+		"rareza": "Especial",
+		"arena": 2,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Tombstone.png"
+	},
+	{
+		"nombre": "Barril de duendes",
+		"elixir": 3,
+		"rareza": "Épica",
+		"arena": 6,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Barrel.png"
+	},
+	{
+		"nombre": "Guardias",
+		"elixir": 3,
+		"rareza": "Épica",
+		"arena": 6,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Guards.png"
+	},
+	{
+		"nombre": "Princesa",
+		"elixir": 3,
+		"rareza": "Legendaria",
+		"arena": 11,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Princess.png"
+	},
+	{
+		"nombre": "Fantasma real",
+		"elixir": 3,
+		"rareza": "Legendaria",
+		"arena": 12,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/Ghost.png"
+	},
+	{
+		"nombre": "Principito",
+		"elixir": 3,
+		"rareza": "Campeón",
+		"arena": 18,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2023,
+		"imagen": "https://www.deckshop.pro/img/c/LittlePrince.png"
+	},
+	{
+		"nombre": "Jaula del forzudo",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 1,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2019,
+		"imagen": "https://www.deckshop.pro/img/c/GoblinCage.png"
+	},
+	{
+		"nombre": "Montapuercos",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 5,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Hog.png"
+	},
+	{
+		"nombre": "Horno",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 10,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Furnace.png"
+	},
+	{
+		"nombre": "Bebé Dragón",
+		"elixir": 4,
+		"rareza": "Épica",
+		"arena": 6,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/BabyD.png"
+	},
+	{
+		"nombre": "Mago electrico",
+		"elixir": 4,
+		"rareza": "Legendaria",
+		"arena": 11,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/eWiz.png"
+	},
+	{
+		"nombre": "Bruja madre",
+		"elixir": 4,
+		"rareza": "Legendaria",
+		"arena": 15,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2021,
+		"imagen": "https://www.deckshop.pro/img/c/MotherWitch.png"
+	},
+	{
+		"nombre": "Puercos Reales",
+		"elixir": 5,
+		"rareza": "Especial",
+		"arena": 7,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/RoyalHogs.png"
+	},
+	{
+		"nombre": "Lanzarocas",
+		"elixir": 5,
+		"rareza": "Épica",
+		"arena": 13,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Bowler.png"
+	},
+	{
+		"nombre": "MontaCarnera",
+		"elixir": 5,
+		"rareza": "Legendaria",
+		"arena": 11,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2018,
+		"imagen": "https://www.deckshop.pro/img/c/RamRider.png"
+	},
+	{
+		"nombre": "Cementerio",
+		"elixir": 5,
+		"rareza": "Legendaria",
+		"arena": 12,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Graveyard.png"
+	},
+	{
+		"nombre": "Barbaros de Élite",
+		"elixir": 6,
+		"rareza": "Común",
+		"arena": 10,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/eBarbs.png"
+	},
+	{
+		"nombre": "Rayo",
+		"elixir": 6,
+		"rareza": "Épica",
+		"arena": 8,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Lightning.png"
+	},
+	{
+		"nombre": "Gigante Electrico",
+		"elixir": 7,
+		"rareza": "Épica",
+		"arena": 13,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2020,
+		"imagen": "https://www.deckshop.pro/img/c/ElectroGiant.png"
+	},
+	{
+		"nombre": "MegaCaballero",
+		"elixir": 7,
+		"rareza": "Legendaria",
+		"arena": 11,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/MegaKnight.png"
+	},
+	{
+		"nombre": "Duendes",
+		"elixir": 2,
+		"rareza": "Común",
+		"arena": 1,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Gobs.png",
+		"pista": "🧌"
+	},
+	{
+		"nombre": "Golem de hielo",
+		"elixir": 2,
+		"rareza": "Especial",
+		"arena": 8,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/IceGolem.png"
+	},
+	{
+		"nombre": "Arbusto sospechoso",
+		"elixir": 2,
+		"rareza": "Especial",
+		"arena": 13,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2024,
+		"imagen": "https://www.deckshop.pro/img/c/SuspiciousBush.png"
+	},
+	{
+		"nombre": "Maldicion duende",
+		"elixir": 2,
+		"rareza": "Épica",
+		"arena": 14,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2024,
+		"imagen": "https://www.deckshop.pro/img/c/GoblinCurse.png"
+	},
+	{
+		"nombre": "Rabia",
+		"elixir": 2,
+		"rareza": "Épica",
+		"arena": 14,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Rage.png"
+	},
+	{
+		"nombre": "El tronco",
+		"elixir": 2,
+		"rareza": "Legendaria",
+		"arena": 11,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Log.png"
+	},
+	{
+		"nombre": "Paquete real",
+		"elixir": 3,
+		"rareza": "Común",
+		"arena": 14,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2020,
+		"imagen": "https://www.deckshop.pro/img/c/RoyalDelivery.png"
+	},
+	{
+		"nombre": "Duende Lanzadardos",
+		"elixir": 3,
+		"rareza": "Especial",
+		"arena": 9,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/DartGob.png"
+	},
+	{
+		"nombre": "Terremoto",
+		"elixir": 3,
+		"rareza": "Especial",
+		"arena": 12,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2019,
+		"imagen": "https://www.deckshop.pro/img/c/Earthquake.png"
+	},
+	{
+		"nombre": "Tornado",
+		"elixir": 3,
+		"rareza": "Épica",
+		"arena": 15,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Tornado.png"
+	},
+	{
+		"nombre": "Vacio",
+		"elixir": 3,
+		"rareza": "Épica",
+		"arena": 15,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2024,
+		"imagen": "https://www.deckshop.pro/img/c/Void.png"
+	},
+	{
+		"nombre": "Bandida",
+		"elixir": 3,
+		"rareza": "Legendaria",
+		"arena": 13,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/Bandit.png"
+	},
+	{
+		"nombre": "Mortero",
+		"elixir": 4,
+		"rareza": "Común",
+		"arena": 5,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Mortar.png"
+	},
+	{
+		"nombre": "Torre tesla",
+		"elixir": 4,
+		"rareza": "Común",
+		"arena": 10,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Tesla.png"
+	},
+	{
+		"nombre": "Bola de fuego",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 0,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Fireball.png"
+	},
+	{
+		"nombre": "Mini PEKKA",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 0,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/MP.png"
+	},
+	{
+		"nombre": "Mosquetera",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 0,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Musk.png"
+	},
+	{
+		"nombre": "Ariete",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 3,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/Ram.png"
+	},
+	{
+		"nombre": "Duende Demoledor",
+		"elixir": 4,
+		"rareza": "Especial",
+		"arena": 12,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2024,
+		"imagen": "https://www.deckshop.pro/img/c/GoblinDemolisher.png"
+	},
+	{
+		"nombre": "Veneno",
+		"elixir": 4,
+		"rareza": "Épica",
+		"arena": 9,
+		"tipo": "Hechizo",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Poison.png"
+	},
+	{
+		"nombre": "Taladro de duende",
+		"elixir": 4,
+		"rareza": "Épica",
+		"arena": 14,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2021,
+		"imagen": "https://www.deckshop.pro/img/c/GoblinDrill.png"
+	},
+	{
+		"nombre": "Gran Minero",
+		"elixir": 4,
+		"rareza": "Campeón",
+		"arena": 17,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2022,
+		"imagen": "https://www.deckshop.pro/img/c/MightyMiner.png"
+	},
+	{
+		"nombre": "Choza de duendes",
+		"elixir": 5,
+		"rareza": "Especial",
+		"arena": 1,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/GobHut.png"
+	},
+	{
+		"nombre": "Mago",
+		"elixir": 5,
+		"rareza": "Especial",
+		"arena": 4,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/Wiz.png"
+	},
+	{
+		"nombre": "Verdugo",
+		"elixir": 5,
+		"rareza": "Épica",
+		"arena": 14,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/Exe.png"
+	},
+	{
+		"nombre": "Cañon con ruedas",
+		"elixir": 5,
+		"rareza": "Épica",
+		"arena": 15,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2017,
+		"imagen": "https://www.deckshop.pro/img/c/CannonCart.png"
+	},
+	{
+		"nombre": "Goblenstein",
+		"elixir": 5,
+		"rareza": "Campeón",
+		"arena": 18,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2024,
+		"imagen": "https://www.deckshop.pro/img/c/Goblinstein.png"
+	},
+	{
+		"nombre": "Monje",
+		"elixir": 5,
+		"rareza": "Campeón",
+		"arena": 18,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2022,
+		"imagen": "https://www.deckshop.pro/img/c/Monk.png"
+	},
+	{
+		"nombre": "Gigante Noble",
+		"elixir": 6,
+		"rareza": "Común",
+		"arena": 7,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/RG.png"
+	},
+	{
+		"nombre": "Choza de barbaros",
+		"elixir": 6,
+		"rareza": "Especial",
+		"arena": 9,
+		"tipo": "Estructura",
+		"año_lanzamiento": 2016,
+		"imagen": "https://www.deckshop.pro/img/c/BarbHut.png"
+	},
+	{
+		"nombre": "Gigante Runica",
+		"elixir": 4,
+		"rareza": "Épica",
+		"arena": 9,
+		"tipo": "Tropa",
+		"año_lanzamiento": 2025,
+		"imagen": "https://www.deckshop.pro/img/c/RuneGiant.png"
+	},
+	{
+		"nombre": "Berserker",
+		"elixir": 2,
+		"rareza": "Común",
+		"arena": 9,
+		"tipo": "Tropa",
+		"año_lanzamiento": "2025",
+		"imagen": "https://www.deckshop.pro/img/c/Berserker.png"
+	},
+	{
+		"nombre": "Bandida lider",
+		"elixir": 6,
+		"rareza": "Campeón",
+		"arena": 17,
+		"tipo": "Tropa",
+		"año_lanzamiento": "2025",
+		"imagen": "https://www.deckshop.pro/img/c/BossBandit.png"
+	}
+]
