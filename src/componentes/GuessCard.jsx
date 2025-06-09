@@ -124,7 +124,7 @@ export default function Game({ initialCards }) {
 
   const getFilterOptions = (key) => {
     let options = cards.map(card => card[key])
-      .filter(Boolean)
+      .filter(opt => opt !== undefined && opt !== null) // Permite 0
       .map(opt => {
         if (key === "año_lanzamiento") return Number(opt)
         return opt
@@ -151,6 +151,7 @@ export default function Game({ initialCards }) {
 
   const selectRandomCard = () => {
     const randomCard = cards[Math.floor(Math.random() * cards.length)]
+    console.log("Carta a adivinar:", randomCard) // <-- Agregado para debug
     setChosenCard(randomCard)
   }
 
@@ -258,11 +259,7 @@ export default function Game({ initialCards }) {
             </span>
           </div>
           <div className="flex flex-wrap gap-2 mb-8 justify-center items-center">
-            {selectedCards.length > 0 && (
-            <div className="flex justify-center w-full mb-8">
-              <AttemptDetails card={selectedCards[activeAttempt]} chosenCard={chosenCard} />
-            </div>
-          )}
+            
             {selectedCards.length === 0 ? (
               <p className="text-gray-500 text-center m-auto">Aún no has hecho intentos.</p>
             ) : (
@@ -275,6 +272,11 @@ export default function Game({ initialCards }) {
                 />
               ))
             )}
+            {selectedCards.length > 0 && (
+            <div className="flex justify-center w-full mb-8">
+              <AttemptDetails card={selectedCards[activeAttempt]} chosenCard={chosenCard} />
+            </div>
+          )}
           </div>
           {/* 2. En medio: Detalle de atributos */}
           
