@@ -32,9 +32,9 @@ function App() {
   }, [])
 
   return (
-    <div style={{ backgroundImage: `url(${Fondo})` }} className="w-[1600px] h-[1080px] mx-auto p-4">
+    <div className="mx-auto p-4">
       <h1 className="text-3xl font-bold text-center mb-8">Clash Royale Card Guessing Game</h1>
-      <div>
+      <div className="flex items-center justify-center" >
       <GuessCardGame initialCards={cards} />
 
       </div>

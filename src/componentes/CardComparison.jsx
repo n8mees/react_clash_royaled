@@ -1,9 +1,18 @@
-function ComparisonItem({ title, value, correct, suggestion }) {
+function ComparisonItem({ title, value, correct }) {
   return (
-    <div className={`p-1 border-2 border-black border-solid rounded text-center text-2xl ${correct ? "bg-green-500" : "bg-red-500"}`}>
-      <p className="text-white text-center font-bold text-xl">{title}</p>
-      <p className="text-white text-center">{value}</p>
-      {!correct && suggestion && <p className="text-white mt-10 text-center text-3xl">{suggestion}</p>}
+    <div
+      className={`flex flex-col justify-center items-center border-2 border-black border-solid rounded-full text-center text-2xl relative mx-auto`}
+      style={{
+        width: "100px",
+        height: "100px",
+        backgroundColor: correct ? "#22c55e" : "#ef4444", // verde si es correcto, rojo si es incorrecto
+        margin: "0 12px"
+      }}
+    >
+      <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-20 rounded-full">
+        <p className="text-white text-center font-bold text-base drop-shadow">{title}</p>
+        <p className="text-white text-center drop-shadow text-lg">{value}</p>
+      </div>
     </div>
   )
 }
@@ -12,22 +21,15 @@ export default function CardComparison({ selectedCard, chosenCard }) {
   const compareProperty = (prop) => {
     if (typeof selectedCard[prop] === "number" && typeof chosenCard[prop] === "number") {
       const isCorrect = selectedCard[prop] === chosenCard[prop]
-      const suggestion = isCorrect ? undefined : selectedCard[prop] > chosenCard[prop] ? "↓↓" : "↑↑"
-      return { correct: isCorrect, suggestion }
+      return { correct: isCorrect }
     }
     return { correct: selectedCard[prop] === chosenCard[prop] }
   }
 
   return (
-    <div className="grid mx- grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 mb-4">
-      <ComparisonItem value={<img className="m-5 h-15" src={selectedCard.imagen}/>}/>
-      <ComparisonItem
-        title="Nombre"
-        value={selectedCard.nombre}
-        correct={compareProperty("nombre").correct}
-      />
-      <ComparisonItem title="Calidad" value={selectedCard.rareza} correct={compareProperty("rareza").correct} />
-      <ComparisonItem title="Tipo" value={selectedCard.tipo} correct={compareProperty("tipo").correct} />
+    <div className="flex flex-row justify-center items-center gap-6 w-full">
+      <ComparisonItem title="Calidad" value={selectedCard.rareza} {...compareProperty("rareza")} />
+      <ComparisonItem title="Tipo" value={selectedCard.tipo} {...compareProperty("tipo")} />
       <ComparisonItem title="Elixir" value={selectedCard.elixir} {...compareProperty("elixir")} />
       <ComparisonItem title="Arena" value={selectedCard.arena} {...compareProperty("arena")} />
       <ComparisonItem title="Año" value={selectedCard.año_lanzamiento} {...compareProperty("año_lanzamiento")} />
