@@ -1,18 +1,18 @@
 function ComparisonItem({ title, value, correct }) {
   return (
     <div
-      className={`flex flex-col justify-center items-center border-2 border-black border-solid rounded-full text-center text-2xl relative mx-auto`}
-      style={{
-        width: "100px",
-        height: "100px",
-        backgroundColor: correct ? "#22c55e" : "#ef4444", // verde si es correcto, rojo si es incorrecto
-        margin: "0 12px"
-      }}
+      className={`
+        flex flex-col justify-center items-center
+        rounded-xl shadow
+        px-3 py-2
+        min-w-[70px] max-w-[90px]
+        border-2
+        ${correct ? "bg-green-100 border-green-400" : "bg-red-100 border-red-400"}
+        transition-all
+      `}
     >
-      <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-20 rounded-full">
-        <p className="text-white text-center font-bold text-base drop-shadow">{title}</p>
-        <p className="text-white text-center drop-shadow text-lg">{value}</p>
-      </div>
+      <span className={`font-bold text-xs mb-1 ${correct ? "text-green-700" : "text-red-700"}`}>{title}</span>
+      <span className={`text-base font-semibold ${correct ? "text-green-900" : "text-red-900"}`}>{value}</span>
     </div>
   )
 }
@@ -27,7 +27,7 @@ export default function CardComparison({ selectedCard, chosenCard }) {
   }
 
   return (
-    <div className="flex flex-row justify-center items-center gap-6 w-full">
+    <div className="flex flex-row justify-center items-center gap-4 w-full px-2 py-1">
       <ComparisonItem title="Calidad" value={selectedCard.rareza} {...compareProperty("rareza")} />
       <ComparisonItem title="Tipo" value={selectedCard.tipo} {...compareProperty("tipo")} />
       <ComparisonItem title="Elixir" value={selectedCard.elixir} {...compareProperty("elixir")} />

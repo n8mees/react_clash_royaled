@@ -4,22 +4,22 @@ export default function CardList({ cards, onSelectCard }) {
   return (
     <div
       style={{ backgroundImage: `url(${Fondo})` }}
-      className="h-72 mb-4 overflow-auto bg-cover bg-center"
+      className="h-96 overflow-auto bg-cover bg-center"
     >
       <div className="flex flex-col gap-2 mt-2 w-full">
         {cards.map((card) => (
-          <button
+          <div
             key={card.nombre}
             onClick={() => onSelectCard(card)}
-            className="flex items-center gap-4 w-full px-4 py-2 bg-blue-900 bg-opacity-60 rounded-lg shadow text-white font-bold text-left hover:bg-blue-700 transition"
+            className="flex items-center gap-4 p-3 rounded-xl cursor-pointer bg-gradient-to-r from-blue-100 to-yellow-50 hover:bg-yellow-100 hover:scale-[1.03] shadow transition-all border border-yellow-100"
           >
             <img
               src={card.imagen || "/placeholder.svg"}
               alt={card.nombre}
-              className="w-14 h-14 object-contain rounded"
+              className="w-14 h-14 object-contain rounded-lg border-2 border-blue-200 shadow"
             />
-            <span className="text-base">{card.nombre}</span>
-          </button>
+            <span className="font-bold text-lg text-gray-700">{card.nombre}</span>
+          </div>
         ))}
       </div>
     </div>
